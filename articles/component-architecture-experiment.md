@@ -714,7 +714,7 @@ public void TryAction()
 
 少し複雜ですね。
 `Player` は複数のギミックで様々な役割を持っているため、「アクションしたい」場合にはどのアクションを実行するかの制御が必要です。
-実際の `Player` のコンポーネントは下記のようになっており、ギミックとしては `Redirectable` と `Rotatable`, `Unlockable` を有しています。
+実際の `Player` のコンポーネントは下記のようになっており、ギミックとしては `Redirectable` と `Rotatable`, `Unlockable`, `Redirectee` を有しています。
 
 ![player inspector](https://storage.googleapis.com/zenn-user-upload/k1opd5g687764mli5a6gpdh0syzd =280x)
 
