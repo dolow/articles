@@ -723,18 +723,18 @@ public void TryAction()
 さて、 `Unlock` の条件となる `this.actionables` も見ておきましょう。
 `this.actionables` に要素が追加されている箇所は、同じ `Player` クラスの `AddActionableIfEligible()` 内となります。
 
-[AddActionableIfEligible()](https://github.com/dolow/ManMachine/blob/5624f5f2a505743bdb9b04a01805881ed694dd8e/Assets/Scripts/GameDomain/Roles/Player.cs#L113-L130)
+[AddActionableIfEligible()](https://github.com/dolow/ManMachine/blob/6a328cdb8aff9f2e29ce98a11ac8168a4735fc39/Assets/Scripts/GameDomain/Roles/Player.cs#L113-L130)
 
 ```cs:Player.cs
-private bool AddActionableIfEligible<Capability, Effectability>(GameObject worker, ActionableType type)
+private bool AddActionableIfEligible<Activator, Worker>(GameObject worker, ActionableType type)
 {
-    Capability c = this.GetComponent<Capability>();
+    Activator c = this.GetComponent<Activator>();
     if (c == null)
     {
         return false;
     }
 
-    Effectability e = worker.GetComponent<Effectability>();
+    Worker e = worker.GetComponent<Worker>();
     if (e == null)
     {
         return false;
