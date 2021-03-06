@@ -168,7 +168,7 @@ TextAsset asset = Resources.Load<TextAsset>(path);
 Map map = JsonUtility.FromJson<RawMap>(asset.text);
 ```
 
-上記に示した構造体の `Map` のうち `height` は付加情報ですが、 `width` と `fields` の配列長を元にシンプルな演算で動的に導出可能です。
+上記に示した構造体の `Map` のうち `height` は補足情報ですが、 `width` と `fields` の配列長を元にシンプルな演算で後から導出可能です。
 
 ```cs
 map.height = (int)Mathf.Floor(map.fields.Length / map.width) + 1;
@@ -604,6 +604,6 @@ public List<Vector3> AddressesToDirections(List<int> addresses, int width, int h
 # まとめ
 
 本稿では Unity 3D 空間におけるタイルマップ生成と A* による経路検索及び移動アニメーションを取り扱いました。
-タイルマップではメモリや描画パフォーマンスに留意し、経路検索での移動では経路を 3次元空間の利用量に置き換えました。
+タイルマップではメモリや描画パフォーマンスに留意し、経路検索での移動では経路を 3次元空間の移動量に置き換えました。
 Unity の達人であればもっと良い方法を提案してくれるかもしれませんが、何も情報が無いよりはと思い記事を公開させていただきました。
 ゲーム制作はまだまだ情報が閉じている印象です、本稿や github 公開している Unity プロジェクトが皆様のゲームづくりの参考になれば幸いです。
