@@ -3,7 +3,7 @@ title: "黒い画面を触らずにサーバーを（できればタダで）作
 emoji: "🌮"
 type: "tech"
 topics: ["cluster", "javascript", "cloudfunctions", "gas", "gcp"]
-published: false
+published: true
 ---
 
 こんにちは Smith です、クラスター株式会社のプラットフォーム事業部でプロダクトマネージャーをやっています。
