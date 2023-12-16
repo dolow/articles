@@ -17,7 +17,7 @@
     "url": "https://github.com/dolow/articles/issues"
   },
   "homepage": "https://github.com/dolow/articles#readme",
-  "dependencies": {
-    "zenn-cli": "^0.1.134"
+  "devDependencies": {
+    "zenn-cli": "^0.1.150"
   }
 }
