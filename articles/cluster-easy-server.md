@@ -19,8 +19,8 @@ published: true
 
 https://cluster.mu/
 
-cluster では Cluster Creator Kit と呼ばれるワールドやワールド内のアイテム、アバターのアクセサリーが作れるツールを Unity の Package Manager で配布しています。
-本記事では、そんな Cluster Creator Kit とは無縁のはずのサーバーっぽいものを作るための手法を幾つか紹介します。
+cluster では Cluster Creator Kit （以下、CCK）と呼ばれるワールドやワールド内のアイテム、アバターのアクセサリーが作れるツールを Unity の Package Manager で配布しています。
+本記事では、そんな CCK とは無縁のはずのサーバーっぽいものを作るための手法を幾つか紹介します。
 明後日くらいには役に立つかも知れません。
 
 なお、いずれも 2023/12 時点の情報ですので、未来にこの記事を参照されている方は各サービスの公式ドキュメントも併せて参照していただけると助かります。
