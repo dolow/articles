@@ -220,7 +220,7 @@ for (let wolfNeedCount = 2; wolfNeedCount > 0; wolfNeedCount--) {
 もしも手元にスクリプトが編集できる環境があるのであれば、自分で読み解いた情報をコメントとして追記してもよいでしょう。
 
 ```javascript
-// 全てのプレイヤーから2人の人狼を選出する
+// 人狼を2人選出するまで繰り返す
 for (let wolfNeedCount = 2; wolfNeedCount > 0; wolfNeedCount--) {
     // 村人リストの中の何番目の村人を人狼にするかを決める
     let index = Math.floor(Math.random() * villagers.length);
