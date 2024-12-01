@@ -3,7 +3,7 @@ title: "ClusterScriptの読み方"
 emoji: "💥"
 type: "tech"
 topics: ["cluster", "javascript"]
-published: false
+published: true
 ---
 
 この記事は [Cluster Script Advent Calendar 2024](https://adventar.org/calendars/10580) の1日目の記事です。
