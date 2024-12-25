@@ -2,8 +2,8 @@
 title: "拡散可能性について考えていたら cluster をハックしていた話"
 emoji: "💥"
 type: "tech"
-topics: ["cluster"]
-published: false
+topics: ["cluster", "GAS", "Svelte"]
+published: true
 ---
 
 この記事は [クラスター Advent Calendar 2024](https://qiita.com/advent-calendar/2024/cluster) の 25日目の記事です。
